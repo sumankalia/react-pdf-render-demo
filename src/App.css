@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+  overflow-x: auto;
+}
+
+.select {
+  margin-bottom: 20px;
+  width: 40%;
+  height: 40px;
+}
+
+.card {
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+  margin-top: 10px;
+}
+
+.card-footer {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+}
+
+.card-subsection {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.votes {
+  background-color: #61C74F;
+  color: #fff;
+  padding: 2px;
+}
